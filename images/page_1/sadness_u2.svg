@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="52px" height="50px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="752px" y="155px" width="52px" height="50px" filterUnits="userSpaceOnUse" id="filter7">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget8">
+      <image preserveAspectRatio="none" style="overflow:visible" width="42" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAoCAYAAACIC2hQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI/SURBVFhH7Zi77wxRHEfX+50IQeJZEiHREAqNRqLVSUSpplGIloqSWuFvUJAoiSgQhEhEFIQQhffbOXt3k82aOzN3587YYk9ysncmv8x8Zu7je+fXmzFjypkz+J2EubgIl+A8/IFf8Dv+waykBvXvV+IO3IM78RgOuYh38TY+xc/YOUvxIF5B31iV53EXzsfOWIOnsShQlUfQ4dE6hryARSHqehwXY2vY3Wew6OapHkYnXXacOIew6KaTuhUnwiUmxiocndE58K0uCM18HMCit9LULZhM7I16fm9oZmf74DeJWFAnkYt6G2zD5IoYC+q6ty40s7MRk2d/LKjVZGFoZsf1NNsbHW4w2uAj/g7N+sSCupl4GZrZeYHZgvo23QW1wSN0mUoiFtQL3cJn/aN8XMPHoZlGLKg8xOuhmY2r+CY00ygL+gEvo12Vi03oxjuZqvXsNX7DfWgRaIrX+YX3MGn3XxXUiz7Br2ilWoFN2Y/JYetUCD/W7qPLlV23HpsyDOvKUmu9rlvKLABOrpv4Hh0GZYFv4CX0A2+3JwpICptcysBP5M3oUHAntGFwzorzHB+gE9Dx7Z72FJ7EGOfQT523/aOWcNVwT2BQN8RFD+7mxi/S0T3puGdxNUZJ3sWM4U3sPo2VxU/oxPGhnPVFVA6DpkHrYlhDeL+ysK/wDv7z0F0FlTphHddWr5/9o/9M2Zg9imXVsnPW4njYE7gcC+my60cZDoN3aHcb2v9pucRNJS5py3CqunvGjHR6vb+E5NA+yFRw2wAAAABJRU5ErkJggg==" x="752px" y="155px" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -752 -155 )">
+    <use xlink:href="#widget8" filter="url(#filter7)" />
+    <use xlink:href="#widget8" />
+  </g>
+</svg>
